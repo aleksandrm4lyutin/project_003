@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:project_003/pages/home_page.dart';
 
 void main() {
-  ///
   WidgetsFlutterBinding.ensureInitialized();
 
   runApp(InitApp());
