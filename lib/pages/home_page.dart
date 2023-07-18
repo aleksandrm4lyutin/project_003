@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:project_003/pages/dummy_app.dart';
 import 'package:project_003/pages/web_view_page.dart';
-//import 'package:shared_preferences/shared_preferences.dart';
 import 'error_page.dart';
 import 'loading_page.dart';
 import 'no_internet_page.dart';
