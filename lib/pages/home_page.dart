@@ -55,6 +55,7 @@ class _HomePageState extends State<HomePage> {
       if(b) {
         return 1;/// WebViewPage
       } else {
+        return 0;//TODO
         return 2;/// NoInternetPage
       }
     } else {
@@ -68,6 +69,7 @@ class _HomePageState extends State<HomePage> {
           return 0;/// DummyApp
         }
       } else {
+        return 0;//TODO
         return 3;/// ErrorPage
       }
     }
