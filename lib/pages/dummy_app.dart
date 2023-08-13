@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:project_003/pages/actual_app.dart';
+import 'package:project_003/pages/estrella_bet/est_home.dart';
 import 'package:project_003/pages/test_game.dart';
 
 
@@ -43,6 +45,8 @@ class _DummyAppState extends State<DummyApp> {
 
   @override
   Widget build(BuildContext context) {
+    return EstHome();
+    return ActualApp();
     return TestGame();
   }
 
