@@ -46,8 +46,7 @@ class _DummyAppState extends State<DummyApp> {
   @override
   Widget build(BuildContext context) {
     return EstHome();
-    return ActualApp();
-    return TestGame();
+
   }
 
 }
